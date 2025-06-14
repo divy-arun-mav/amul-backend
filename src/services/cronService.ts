@@ -1,4 +1,3 @@
-import cron from 'node-cron';
 import { fetchAndUpdateProducts } from './productService';
 
 export const startCronJobs = (): void => {
